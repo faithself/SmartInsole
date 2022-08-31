@@ -1,0 +1,13 @@
+E:\code\app_piezo_4\app\src\main\res\layout\fragment_feet_fsr_value.xml:66: Error: The id "sensorL2" is not defined anywhere. Did you mean sensorL02 ? [UnknownId]
+            app:layout_constraintTop_toTopOf="@+id/sensorL2"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnknownId":
+   The @+id/ syntax refers to an existing id, or creates a new one if it has
+   not already been defined elsewhere. However, this means that if you have a
+   typo in your reference, or if the referred view no longer exists, you do
+   not get a warning since the id will be created on demand. This check
+   catches errors where you have renamed an id without updating all of the
+   references to it.
+
+1 errors, 0 warnings

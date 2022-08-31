@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.kai_morich.simple_usb_terminal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:6:5-77
+11-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:6:22-74
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:7:5-66
+12-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:8:5-74
+13-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:8:22-72
+14    <!-- 允许程序打开网络套接字 -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:10:5-67
+15-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:10:22-64
+16    <!-- 允许程序设置内置sd卡的写权限 -->
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:12:5-81
+17-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:12:22-78
+18    <!-- 允许程序获取网络状态 -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:14:5-79
+19-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:14:22-76
+20    <!-- 允许程序访问WiFi网络信息 -->
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:16:5-76
+21-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:16:22-73
+22    <!-- 允许程序读写手机状态和身份 -->
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:8:5-74
+23-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:8:22-72
+24    <!-- 用于进行网络定位 -->
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:20:5-80
+25-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:20:22-78
+26    <!-- 用于访问GPS定位 -->
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:22:5-78
+27-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:22:22-76
+28    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+29    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+29-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:24:5-75
+29-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:24:22-73
+30    <!-- 用于读取手机当前的状态 -->
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:8:5-74
+31-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:8:22-72
+32    <!-- 用于申请调用A-GPS模块 -->
+33    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+33-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:28:5-88
+33-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:28:22-86
+34
+35    <application
+35-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:30:5-63:19
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+37        android:icon="@mipmap/ic_launcher"
+37-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:31:9-43
+38        android:label="@string/app_name"
+38-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:32:9-41
+39        android:theme="@style/AppTheme" >
+39-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:33:9-40
+40
+41        <!--
+42         for this simple app launchMode=singleTask and singleTop have same effect.
+43                 If you would start another activity in the app, e.g. Android Settings
+44                 then you should use singleTask, else a new MainActivity would be started
+45                 when the settings activity is currently shown
+46        -->
+47        <meta-data
+47-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:41:9-119
+48            android:name="com.amap.api.v2.apikey"
+48-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:41:20-57
+49            android:value="1549f57fc1e6a30b0b50713ddb671626" />
+49-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:41:58-106
+50
+51        <service android:name="com.amap.api.location.APSService" />
+51-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:42:9-76
+51-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:42:18-65
+52
+53        <activity
+53-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:43:9-60:20
+54            android:name="de.kai_morich.simple_usb_terminal.MainActivity"
+54-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:44:13-41
+55            android:label="@string/app_name"
+55-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:45:13-45
+56            android:launchMode="singleTask"
+56-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:46:13-44
+57            android:windowSoftInputMode="stateHidden|adjustResize" >
+57-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:47:13-67
+58            <intent-filter>
+58-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:48:13-52:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:49:17-69
+59-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:49:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:51:17-77
+61-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:51:27-74
+62            </intent-filter>
+63            <intent-filter>
+63-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:53:13-55:29
+64                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+64-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:54:17-90
+64-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:54:25-87
+65            </intent-filter>
+66
+67            <meta-data
+67-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:57:13-59:61
+68                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+68-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:58:17-79
+69                android:resource="@xml/usb_device_filter" />
+69-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:59:17-58
+70        </activity>
+71
+72        <service android:name="de.kai_morich.simple_usb_terminal.SerialService" />
+72-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:62:9-50
+72-->E:\code\app_piezo_4\app\src\main\AndroidManifest.xml:62:18-47
+73    </application>
+74
+75</manifest>

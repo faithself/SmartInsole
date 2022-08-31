@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: E./code/app_piezo_4/app/libs/achartengine-1.1.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/achartengine-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.2" type="incidents">
+
+    <incident
+        id="UnknownId"
+        severity="fatal"
+        message="The id &quot;`sensorL2`&quot; is not defined anywhere. Did you mean sensorL02 ?">
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/layout/fragment_feet_fsr_value.xml"
+            line="66"
+            column="13"
+            startOffset="2972"
+            endLine="66"
+            endColumn="61"
+            endOffset="3020"/>
+    </incident>
+
+</incidents>

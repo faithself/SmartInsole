@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fsr">
+
+    <fragment
+        android:id="@+id/fsr"
+        android:name="de.kai_morich.simple_usb_terminal.AppFragment"
+        android:label="FSR值" />
+    <fragment
+        android:id="@+id/map"
+        android:name="de.kai_morich.simple_usb_terminal.MapFragment"
+        android:label="地图"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/medical"
+        android:name="de.kai_morich.simple_usb_terminal.MedicalFragment"
+        android:label="医护"
+        tools:layout="@layout/fragment_medical" />
+</navigation>

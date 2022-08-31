@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/code/SimpleUsbTerminal/app/src/main/res/drawable/shape.xml" value="0.33" />
+        <entry key="..\:/code/SimpleUsbTerminal/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/code/SimpleUsbTerminal/app/src/main/res/layout/device_list_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/code/SimpleUsbTerminal/app/src/main/res/layout/fragment_feet_fsr_value.xml" value="0.36614583333333334" />
+        <entry key="..\:/code/SimpleUsbTerminal/app/src/main/res/layout/fragment_terminal.xml" value="0.36614583333333334" />
+        <entry key="..\:/code/SimpleUsbTerminal/app/src/main/res/layout/shape.xml" value="0.3515625" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/drawable/ic_feet.xml" value="0.248" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/drawable/shape.xml" value="0.2885" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/activity_main.xml" value="0.1875" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/device_list_header.xml" value="0.30055579307396324" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/device_list_item.xml" value="0.20820863616930313" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/fragment_app.xml" value="0.30055579307396324" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/fragment_feet_fsr_value.xml" value="0.5" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/fragment_map.xml" value="0.20820863616930313" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/fragment_medical.xml" value="0.30055579307396324" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/fragment_terminal.xml" value="0.22604166666666667" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/map_fragment.xml" value="0.20820863616930313" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/layout/medical_fragment.xml" value="0.19623770842240273" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/menu/menu.xml" value="0.20820863616930313" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/menu/menu_devices.xml" value="0.20820863616930313" />
+        <entry key="..\:/code/app_piezo_4/app/src/main/res/menu/menu_terminal.xml" value="0.22604166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

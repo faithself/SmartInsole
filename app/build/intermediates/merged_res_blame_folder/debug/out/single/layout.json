@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\code\\app_piezo_4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_medical.xml",
+        "source": "E:\\code\\app_piezo_4\\app\\src\\main\\res\\layout\\fragment_medical.xml"
+    },
+    {
+        "merged": "E:\\code\\app_piezo_4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_feet_fsr_value.xml",
+        "source": "E:\\code\\app_piezo_4\\app\\src\\main\\res\\layout\\fragment_feet_fsr_value.xml"
+    },
+    {
+        "merged": "E:\\code\\app_piezo_4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_map.xml",
+        "source": "E:\\code\\app_piezo_4\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "E:\\code\\app_piezo_4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_app.xml",
+        "source": "E:\\code\\app_piezo_4\\app\\src\\main\\res\\layout\\fragment_app.xml"
+    }
+]

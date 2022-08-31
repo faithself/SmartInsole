@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">盛春智步</string>
+    <string name="devices">USB Devices</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="string_feets">feets</string>
+    <string name="time_cost_left_foot_float">之前左脚离地时长（毫秒）：</string>
+    <string name="time_cost_right_foot_float">之前右脚离地时长（毫秒）：</string>
+    <string name="time_cost_both_feet_float">前次滞空时长（毫秒）：</string>
+    <string name="longest_time_cost_both_feet_float">最长滞空时长（毫秒）：</string>
+    <string name="total_steps">本次步数：</string>
+    <string name="step_frequency">当前步频（步数/分钟）：</string>
+    <string name="heel_impact_L">左脚跟缓冲时长（毫秒）：</string>
+    <string name="heel_impact_R">右脚跟缓冲时长（毫秒）：</string>
+    <string name="low_power">：低电量：</string>
+    <string name="fall_down_occur">发生跌倒！！！</string>
+    <string name="map_application">地图应用</string>
+    <string name="main_support">：主支撑足：</string>
+    <string name="lame">：跛足：</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

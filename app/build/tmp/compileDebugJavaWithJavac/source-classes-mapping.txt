@@ -1,0 +1,32 @@
+de/kai_morich/simple_usb_terminal/TerminalFragment.java
+ de.kai_morich.simple_usb_terminal.TerminalFragment
+ de.kai_morich.simple_usb_terminal.TerminalFragment$1
+ de.kai_morich.simple_usb_terminal.TerminalFragment$Connected
+ de.kai_morich.simple_usb_terminal.TerminalFragment$ControlLines
+de/kai_morich/simple_usb_terminal/CustomProber.java
+ de.kai_morich.simple_usb_terminal.CustomProber
+de/kai_morich/simple_usb_terminal/TextUtil.java
+ de.kai_morich.simple_usb_terminal.TextUtil
+ de.kai_morich.simple_usb_terminal.TextUtil$HexWatcher
+de/kai_morich/simple_usb_terminal/Constants.java
+ de.kai_morich.simple_usb_terminal.Constants
+de/kai_morich/simple_usb_terminal/SerialService.java
+ de.kai_morich.simple_usb_terminal.SerialService
+ de.kai_morich.simple_usb_terminal.SerialService$1
+ de.kai_morich.simple_usb_terminal.SerialService$QueueItem
+ de.kai_morich.simple_usb_terminal.SerialService$QueueType
+ de.kai_morich.simple_usb_terminal.SerialService$SerialBinder
+de/kai_morich/simple_usb_terminal/SerialSocket.java
+ de.kai_morich.simple_usb_terminal.SerialSocket
+ de.kai_morich.simple_usb_terminal.SerialSocket$1
+de/kai_morich/simple_usb_terminal/SerialListener.java
+ de.kai_morich.simple_usb_terminal.SerialListener
+de/kai_morich/simple_usb_terminal/DevicesFragment.java
+ de.kai_morich.simple_usb_terminal.DevicesFragment
+ de.kai_morich.simple_usb_terminal.DevicesFragment$1
+ de.kai_morich.simple_usb_terminal.DevicesFragment$2
+ de.kai_morich.simple_usb_terminal.DevicesFragment$ListItem
+de/kai_morich/simple_usb_terminal/BuildConfig.java
+ de.kai_morich.simple_usb_terminal.BuildConfig
+de/kai_morich/simple_usb_terminal/MainActivity.java
+ de.kai_morich.simple_usb_terminal.MainActivity

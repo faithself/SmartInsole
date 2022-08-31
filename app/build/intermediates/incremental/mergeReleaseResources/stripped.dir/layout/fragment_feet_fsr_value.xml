@@ -1,0 +1,275 @@
+
+                                                       
+                                                               
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" android:tag="layout/fragment_feet_fsr_value_0" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/feetBackground2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/string_feets"
+            android:src="@drawable/ic_feet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/sensorR03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/sensorL00"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.73"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/sensorL00" />
+
+        <ImageView
+            android:id="@+id/sensorR02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/sensorL01"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/sensorL01" />
+
+        <ImageView
+            android:id="@+id/sensorR01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/sensorL02"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/sensorL02" />
+
+        <ImageView
+            android:id="@+id/sensorR00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/sensorL03"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/sensorL2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/sensorL00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/feetBackground2"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <ImageView
+            android:id="@+id/sensorL01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/feetBackground2"
+            app:layout_constraintVertical_bias="0.35" />
+
+        <ImageView
+            android:id="@+id/sensorL02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/feetBackground2"
+            app:layout_constraintVertical_bias="0.59" />
+
+        <ImageView
+            android:id="@+id/sensorL03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sensor"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/feetBackground2"
+            app:layout_constraintVertical_bias="0.9" />
+
+        <TextView
+            android:id="@+id/textViewR00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorR00"
+            app:layout_constraintEnd_toEndOf="@+id/sensorR00"
+            app:layout_constraintStart_toStartOf="@+id/sensorR00" />
+
+        <TextView
+            android:id="@+id/textViewR01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorR01"
+            app:layout_constraintEnd_toEndOf="@+id/sensorR01"
+            app:layout_constraintStart_toStartOf="@+id/sensorR01" />
+
+        <TextView
+            android:id="@+id/textViewR02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorR02"
+            app:layout_constraintEnd_toEndOf="@+id/sensorR02"
+            app:layout_constraintStart_toStartOf="@+id/sensorR02" />
+
+        <TextView
+            android:id="@+id/textViewR03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorR03"
+            app:layout_constraintEnd_toEndOf="@+id/sensorR03"
+            app:layout_constraintStart_toStartOf="@+id/sensorR03" />
+
+        <TextView
+            android:id="@+id/textViewL03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorL03"
+            app:layout_constraintEnd_toEndOf="@+id/sensorL03"
+            app:layout_constraintStart_toStartOf="@+id/sensorL03" />
+
+        <TextView
+            android:id="@+id/textViewL02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorL02"
+            app:layout_constraintEnd_toEndOf="@+id/sensorL02"
+            app:layout_constraintStart_toStartOf="@+id/sensorL02" />
+
+        <TextView
+            android:id="@+id/textViewL01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorL01"
+            app:layout_constraintEnd_toEndOf="@+id/sensorL01"
+            app:layout_constraintStart_toStartOf="@+id/sensorL01" />
+
+        <TextView
+            android:id="@+id/textViewL00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4096"
+            android:textColor="#0277BD"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/sensorL00"
+            app:layout_constraintEnd_toEndOf="@+id/sensorL00"
+            app:layout_constraintStart_toStartOf="@+id/sensorL00" />
+
+        <ImageView
+            android:id="@+id/gCenter"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="307dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+
+        <TextView
+            android:id="@+id/bodyWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2"
+            app:layout_constraintTop_toTopOf="@+id/feetBackground2" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/menu" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feetBackground2"
+            app:navGraph="@navigation/navigation" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low_power"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintEnd_toEndOf="@+id/feetBackground2"
+            app:layout_constraintStart_toStartOf="@+id/feetBackground2" />
+
+        <TextView
+            android:id="@+id/lowPowerIndL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintEnd_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/lowPowerIndR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toBottomOf="@+id/feetBackground2"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         
